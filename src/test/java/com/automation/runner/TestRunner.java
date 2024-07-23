@@ -9,7 +9,7 @@ import org.junit.runner.RunWith;
 @CucumberOptions(
         features = "src/test/resources/features",
         glue = "com.automation.steps",
-        plugin = {"html:targe/report.html","json:targe/cucumber.json"}
+        plugin = {"html:target/report.html","json:target/cucumber.json"}
         // tags = "@WIP",
         // dryRun = true
 )
